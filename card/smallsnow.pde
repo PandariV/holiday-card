@@ -1,8 +1,8 @@
-class Bigsnow implements Snow {
+class Smallsnow implements Snow {
   float x = 0, y = 0, z = 0, size = 0;
   float xSpeed = 0, ySpeed = 0;
   
-  Bigsnow() {
+  Smallsnow() {
     reset();
   }
   
@@ -14,7 +14,6 @@ class Bigsnow implements Snow {
       reset();
     }
   }
-  
   void reset(){
     x = random(-300, 300);
     y = random(-1000, -10);

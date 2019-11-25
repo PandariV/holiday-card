@@ -5,8 +5,9 @@ void setup() {
   size(1000, 600, P3D);
   background(0);
   
-  for(int i = 0; i < 500; i++) {
+  for(int i = 0; i < 250; i++) {
     snowflakes.add(new Bigsnow());
+    snowflakes.add(new Smallsnow());
   }
 }
 
@@ -17,7 +18,7 @@ void draw() {
   rotateY(rotY);
   push();
   rotateX(PI/2);
-  fill(240);
+  fill(250);
   rect(-300, -300, 600, 600);
   pop();
   noStroke();
