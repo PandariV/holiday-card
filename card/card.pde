@@ -26,6 +26,7 @@ void draw() {
   fill(255);
   rect(-300, -300, 600, 600);
   house.setFill(color(162, 104, 77));
+  pointLight(255, 255, 255, 0, -50, 200);
   shape(house, -50, 0);
   tree.setFill(color(70, 178, 103));
   shape(tree, 100, 0);
